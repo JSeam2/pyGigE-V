@@ -1,14 +1,14 @@
 ### PyGigE-V
 
 #### Minimal Python wrapper for Teledyne DALSA's GigE-V Framework
-A python wrapper for some of the GigE-V Framework API methods which work with [Teledyne Dalsa Cameras]('https://www.teledynedalsa.com'). 
+A python wrapper for some of the GigE-V Framework API methods which work with [Teledyne Dalsa Cameras](https://www.teledynedalsa.com). 
 This is meant for use on Linux systems. I am not sure if this would work on other operating systems. 
-This was forked from [jcramer/pyGigE-V]('https://github.com/jcramer/pyGigE-V'). 
+This was forked from [jcramer/pyGigE-V](https://github.com/jcramer/pyGigE-V). 
 This fork fixes some bugs and ports the code to python3.
 The code tested to work on python3, Ubuntu 18.04, Genie Nano camera, and GigE-V-Framework\_2.10.0.0157 
 
 ### Installing GigE-V Framework for Linux
-1. Go to Teledyne Dalsa's download page for the GigE-V Framework for Linux at [https://www.teledynedalsa.com/en/support/downloads-center/software-development-kits/132/]('https://www.teledynedalsa.com/en/support/downloads-center/software-development-kits/132/') __Last accessed on 22 Feb 2019 version 2.10.0.0157__
+1. Go to Teledyne Dalsa's download page for the GigE-V Framework for Linux at [https://www.teledynedalsa.com/en/support/downloads-center/software-development-kits/132/](https://www.teledynedalsa.com/en/support/downloads-center/software-development-kits/132/) __Last accessed on 22 Feb 2019 version 2.10.0.0157__
 2. Download the GigE-V Framework (includes documentation) file.
 3. Once you have downloaded the file extract it.
 4. In the folder you should see a bunch of implementations for different architectures mainly
