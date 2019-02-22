@@ -6,15 +6,15 @@ import cv2
 ctx = gev()
 
 # print list of available cameras
-print ctx.GevGetCameraList()
+print(ctx.GevGetCameraList())
 
 # open the first detected camera - returns 'OK'
 ctx.GevOpenCamera()
 
 # get image parameters - returns python object of params
 params = ctx.GevGetImageParameters()
-print "Initial image parameters:"
-print params
+print("Initial image parameters:")
+print(params)
 
 # camera sensor properties
 width_max = 1936
@@ -33,8 +33,8 @@ y_offset = int((height_max - height) / 2)
 
 ctx.GevSetImageParameters(width, height, x_offset, y_offset, params['pixelFormat'][0])
 params = ctx.GevGetImageParameters()
-print "Final image parameters:"
-print params
+print("Final image parameters:")
+print(params)
 
 width = params['width']
 height = params['height'] 
