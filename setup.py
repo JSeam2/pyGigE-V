@@ -29,7 +29,7 @@ if USE_CYTHON:
 
 setup(ext_modules=extensions,
       name='pygigev',
-      version='1.0.0',
+      version='1.0.1',
       description='Python wrapper for Gige-V cameras',
       url='https://github.com/JSeam2/pyGigE-V',
       py_modules=['pygigev'],
