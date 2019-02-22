@@ -52,7 +52,7 @@ $ lsgev
 ### Installing Python Package from source repo
 1.  Download this repository locally
 2.  Make sure you have the build tools read
-3.  Run `sudo python setup.py install` at the repo's root dir
+3.  Run `python setup.py install` at the repo's root dir
 4.  Test by running `python test.py` example
 
 #### Extending this module using Cython (for developemnt) 
