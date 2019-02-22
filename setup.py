@@ -11,7 +11,7 @@ try:
 except ImportError:
     from distutils.extension import Extension
 
-USE_CYTHON = True
+USE_CYTHON = False
 
 ext = '.pyx' if USE_CYTHON else '.c'
 
