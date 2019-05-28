@@ -1,4 +1,5 @@
 ### PyGigE-V
+*NOTE* This library may not be suited for real time video streaming, performance issues and the occasional segfault might occur. An alternative approach is to use some kind of Inter-process communication like pipes to have a C++ program communicate with a Python program. An example can be found in [Python-Cpp-IPC-for-Gigev](https://github.com/JSeam2/Python-Cpp-IPC-for-Gigev)
 
 #### Minimal Python wrapper for Teledyne DALSA's GigE-V Framework
 A python wrapper for some of the GigE-V Framework API methods which work with [Teledyne Dalsa Cameras](https://www.teledynedalsa.com). 
